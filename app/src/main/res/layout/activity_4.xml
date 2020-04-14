@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <VideoView
+            android:id="@+id/videoView2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="1. Помогите человеку сесть в удобное положение и принять лекарство. Когда случается приступ астмы, мышцы дыхательных путей сужаются, затрудняя дыхание. Использование ингалятора расслабляет мышцы, позволяя воздуху свободно проходить, а человеку - дышать."
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="2. Успокойте человека. Если приступ становится тяжелым, с собой нет лекарств, или они не улучшают самочувствие, звоните 103."
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="3. Легкий приступ должен пройти в течение нескольких минут. Если этого не произойдет или использование ингалятора не имеет никакого эффекта, звоните 103."
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</ScrollView>

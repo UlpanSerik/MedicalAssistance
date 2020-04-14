@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="1. Используйте подушку или одежду, чтобы предотвратить ненужные движения. Фиксация руки может привести к избавлению от боли и предотвращению дальнейшего повреждения.  "
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="2. Если зона поражения деформирована, человек жалуется на сильную боль или необходима транспортировка, звоните 103. Обеспечьте фиксацию местра травмы до прибытия помощи.   "
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="3. Если Вы подозреваете открытый перелом(из раны видны осколки костей), то обложите место перелома чем-нибудь мягким и объемным(бинт, одежда), накройте чистой тканью и не туго перевяжите.  "
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</ScrollView>

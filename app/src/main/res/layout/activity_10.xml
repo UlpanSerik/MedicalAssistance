@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="1. Человек может ощущать постоянную боль в груди или неприятные боли в руках, шее, челюсти, спине или животе. Эта боль вызвана блокадой кровоснабжения сердечной мышцы, поэтому боль не уменьшается после отдыха.  "
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="2. Звоните 103 как можно скорее. Человек должен получить медицинскую помощь как можно скорее, так как сердечный приступ очень серьезен и требует немедленного внимания. Дайте аспирин, если у человека нет аллергии на него.   "
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="3. Убедитесь, что человек находится в удобном положении(например, посадите на пол с упором в стену или стул). Это уменьшит нагрузку на сердце. Сидя на полу у него будет меньше шансов поранить себя во время приступа."
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</ScrollView>

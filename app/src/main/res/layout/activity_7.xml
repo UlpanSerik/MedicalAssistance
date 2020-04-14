@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="1. Охлаждайте ожог под проточной холодной водой в течение не менее 10 минут. Охлаждение ожога уменьшит боль, снижая риск образования шрама. Чем быстрее и дольше ожог охлаждается, тем меньшее влияние окажет травма.  "
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="2. Если ожог требует дальнейшей медицинской помощи, неплотно покройте ожог полиэтиленовой пленкой или чистым полиэтиленовым пакетом. В противном случае он не нуждается в таком покрытии. Это помогает предотвратить инфекции, сохраняя ожог в чистоте. Это идеальное покрытие, поскольку оно не прилипает к ожогк и уменьшает боль, предотвращая доступ воздуха к поверхности кожи."
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="3. В случае необходимости, позвоните 103. "
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="false"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawHorizontalTrack="false"
+    android:scrollbarAlwaysDrawVerticalTrack="false"
+    tools:context=".Activity1">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="1. Проверьте дыхание. Для этого отклоните голову пострадавшего назад и приблизьте ваше лицо к его рту и носу так, чтобы почувствовать и увидеть выдыхаемый воздух. Проследите поднимается ли грудная клетка. "
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="2. Когда человек находится без сознания, его мышцы расслабляются. Язык может запасть, перекрыть дыхательные пути, и человек задохнется. Отклоните голову пострадавшего назад и вытяните подбородок вперед, чтобы открыть дыхательные пути. Следите за грудной клеткой, чтобы увидеть поднимается лии она. Приблизьте Ваше лицо ко рту и носу пострадавшего и наклонитесь, чтобы почувствовать его дыхание на своей щеке. Это поможет определить дышит человек или нет."
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="3. Если пострадавший не дышит, начинайте делать непрямой массаж сердца. Положите ладонь одной руки в центр грудной клетки, накройте второй ладонью и переплетите пальцы. Нажмите на середину грудной клетки и отпустите. Нажимать нужно быстро  и сильно."
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+</LinearLayout>
+</ScrollView>
